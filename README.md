@@ -31,37 +31,6 @@ vosk-simple/
     vosk-model-small-en-us-0.15/
 ```
 
----
-
-## 🎤 Running the Demo
-
-```bash
-python main.py
-```
-
-If you need to manually select a microphone device, run:
-
-```bash
-python list_devices.py
-```
-
-Then edit `DEVICE_INDEX` inside `main.py`.
-
----
-
-## 📁 Files in This Repo
-
-### `main.py`
-Main real-time transcription script using:
-- `sounddevice.RawInputStream`
-- `KaldiRecognizer`
-- Live partial & final transcription printing
-
-### `list_devices.py`
-Helper script to print all audio devices to help configure mic input.
-
----
-
 ## 📝 Notes
 
 - Vosk models run fully **offline**.
